@@ -1,13 +1,13 @@
 body {
     background: #4d3cd1 url("blue-pattern.jpg") no-repeat right top fixed;
-    font-family: Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   .container {
     max-width: 600px;
     margin: 100px auto;
     text-align: center;
-    background-color: white;
+    background-color: #70aec6;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
@@ -31,7 +31,7 @@ body {
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
   }
   
   input:focus {
@@ -41,7 +41,7 @@ body {
   button {
     margin-top: 20px;
     padding: 12px 20px;
-    background-color: #4CAF50;
+    background-color: #4c4ce3;
     color: white;
     font-size: 18px;
     border-radius: 5px;
@@ -51,9 +51,10 @@ body {
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #0d0dd4;
     transition: 1s all;
     transform: scale(0.9);
+    color: #e2e810;
   }
   
   button[type="submit"] {
