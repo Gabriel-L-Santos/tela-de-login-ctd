@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tela de Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <form>
-        <h1>Login</h1>
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit" onclick="login()">Login</button>
-        <button onclick="switchToSignUp()">Criar Conta</button>
-      </form>
-    </div>
-    <script src="script.js"></script>
-  </body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tela de Login</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="container">
+          <form>
+            <h1>Login</h1>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit" onclick="login()">Login</button>
+            <button onclick="switchToSignUp()">Criar Conta</button>
+          </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
