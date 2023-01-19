@@ -1,26 +1,24 @@
-var users = {};
-
 function signup() {
   var username = document.getElementById("signup-username").value;
   var password = document.getElementById("signup-password").value;
   var passwordConfirm = document.getElementById("signup-password-confirm").value;
   if (password === passwordConfirm) {
-    // adicionar as informações do usuário ao objeto users
-    users[username] = password;
-    alert("Sign up successful!");
+    
+    username != password;
+    alert("Conta criada com sucesso!");
   } else {
-    alert("Passwords do not match!");
+    alert("Senhas não correspondem!");
   }
 }
 
 function login() {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
-  // verificar se as informações do usuário estão no objeto users
-  if (users[username] === password) {
-    alert("Login successful!");
+
+  if (username != password) {
+    alert("Login feito com sucesso!");
   } else {
-    alert("Incorrect username or password!");
+    alert("Senha ou nome de usuário incorreta");
   }
 }
 
@@ -41,7 +39,6 @@ function switchToSignUp() {
         <label for="password-confirm">Confirme a senha:</label>
         <input type="password" id="signup-password-confirm" name="password-confirm" required>
         <button type="submit" onclick="signup()">Criar Conta</button>
-        <button onclick="switchToLogin()">Já tem uma conta?</button>
       </form>`;
   document.querySelector("body").appendChild(signUpContainer);
 }
