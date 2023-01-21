@@ -6,9 +6,9 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
+![](./imgs-gifs-readme/tela-login.gif)
 ![](./imgs-gifs-readme/tela-login.png)
 ![](./imgs-gifs-readme/tela-signup.png)
-![](./imgs-gifs-readme/tela-login.gif)
 
 Este é um projeto de um site com uma tela de Login dinâmica que muda o formulário de Login para o formulário de Criar Conta (ou Sign Up) na mesma página, usando Javascript. 
 
