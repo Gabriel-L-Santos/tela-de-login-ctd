@@ -54,7 +54,7 @@ body {
     background-color: #0d0dd4;
     transition: 1s all;
     transform: scale(0.9);
-    color: #e2e810;
+    color: #dfe51b;
   }
   
   button[type="submit"] {
