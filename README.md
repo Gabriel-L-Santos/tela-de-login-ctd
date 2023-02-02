@@ -1,6 +1,6 @@
 # Tela de Login
 
-OBS: atualização do projeto em andamento...
+OBS: atualização do projeto em andamento.....
 
 ## Link do projeto
  https://tela-de-login-ctd.netlify.app
